@@ -1,0 +1,82 @@
+.mobile-devices {
+    background-color: white;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.phone-image {
+    max-height: var(--mobiles-section-dimensions);
+    max-width: var(--mobiles-section-dimensions);
+}
+
+.mobile-devices-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.content-heading h3 {
+    padding-bottom: 20px;
+    text-align: left;
+}
+
+.content-heading p {
+    max-width: 700px;
+    padding-bottom: 50px;
+    text-align: left;
+}
+
+.content-list {
+    margin-left: 50px;
+}
+
+.content-list li {
+    padding: 0 0 10px 20px;
+    display: flex;
+
+}
+
+.content-list p {
+    text-align: left;
+    margin: 0;
+    margin-left: 10px;
+}
+
+.content-list img {
+    max-width: var(--mobiles-section-arrows);
+    max-height: var(--mobiles-section-arrows);
+}
+
+@media only screen and (max-width: 768px) {
+    .content {
+        margin: 50px 0;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .mobile-devices-content {
+        align-items: center;
+    }
+
+    .content-heading h3 {
+        padding-top: 40px;
+    }
+
+    .content-heading p {
+        padding-bottom: 30px;
+    }
+
+    .content-list {
+        margin-left: 0;
+    }
+
+    .phone-image {
+        max-height: var(--mobiles-section-dimensions-mobile);
+        max-width: var(--mobiles-section-dimensions-mobile);
+    }
+}

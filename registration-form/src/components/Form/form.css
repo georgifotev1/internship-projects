@@ -1,0 +1,24 @@
+.form-element {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+form {
+    border: 1px solid black;
+    border-radius: 4px;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+input, select, .btn {
+    padding: 10px 30px;
+    font-size: 30px;
+}
+
+label {
+    margin-bottom: 10px;
+}

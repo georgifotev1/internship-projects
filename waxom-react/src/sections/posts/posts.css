@@ -1,0 +1,72 @@
+.posts-cards {
+    justify-content: center;
+    padding: 50px 0;
+}
+
+.posts-swiper .swiper {
+    padding-bottom: 40px;
+}
+
+.post-nav-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.post-card {
+    max-width: 360px;
+    margin: 10px;
+    background-color: #fbfaf8;
+}
+
+.post-card:hover {
+    background-color: #352f2d;
+}
+
+.post-card:hover img {
+    opacity: 0.4;
+}
+
+.post-card:hover h4 {
+    color: var(--text-color-white);
+}
+
+.post-card img {
+    width: 100%;
+}
+
+.post-card h4 {
+    color: #c7b299;
+    padding: 0 5px;
+    padding-top: 20px;
+}
+
+.post-card p {
+    color: #c7b299;
+    padding: 0 5px;
+    padding-bottom: 20px;
+}
+
+.prev-arrow {
+    background-image: url(/src/assets/icons/post-left-arrow-icon.png);
+    width: 29px;
+    height: 30px;
+}
+
+.next-arrow {
+    background-image: url(/src/assets/icons/post-right-arrow.png);
+    width: 30px;
+    height: 27px;
+}
+
+@media only screen and (max-width: 768px) {
+    .posts-cards {
+        padding: 0 0 50px;
+    }
+
+    .prev-arrow,
+    .next-arrow {
+        display: none;
+    }
+}

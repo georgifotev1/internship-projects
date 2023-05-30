@@ -1,0 +1,31 @@
+.accordion-values {
+    display: none;
+}
+
+.accordion-category {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.accordion-item {
+    margin-bottom: 10px;
+}
+
+.accordion-values.active {
+    display: block;
+}
+
+.accordion-values {
+    margin: 10px 0;
+}
+
+.accordion-values input {
+    margin: 0 10px;
+}
+
+.accordion-item li {
+    margin-bottom: 5px;
+}

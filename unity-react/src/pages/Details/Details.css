@@ -1,0 +1,384 @@
+.details-content {
+    width: 100%;
+    display: flex;
+}
+
+.side {
+    width: 50%;
+    padding: 0 10px;
+}
+
+
+
+.small-cards {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.comments-count {
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-family: var(--merriweather);
+}
+
+.submit-comment {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+
+form {
+    margin: 10px 0;
+}
+
+.comments-form {
+    margin: 10px 0 20px 0;
+}
+
+.comments-form label {
+    font-size: 16px;
+    font-family: var(--lato);
+}
+
+.price-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.price-stats {
+    display: flex;
+    align-items: center;
+}
+
+.price {
+    font-size: 28px;
+    color: var(--main-text-color);
+    font-weight: 700;
+    font-family: var(--lato);
+    text-align: center;
+}
+
+.old-price {
+    font-size: 14px;
+    text-decoration: line-through;
+    color: var(--card-type-color);
+    font-weight: 400;
+    font-family: var(--lato);
+}
+
+.discount {
+    border-radius: 2px;
+    background-color: #f44336;
+    padding: 3px 6px;
+    font-size: 12px;
+    color: var(--text-color-white);
+    font-weight: 400;
+    font-family: var(--lato);
+    margin: 0 10px;
+}
+
+.price-stats span {
+    font-size: 14px;
+    color: var(--card-type-color);
+    font-weight: 400;
+    font-family: var(--lato)
+}
+
+.review {
+    font-size: 14px;
+    color: var(--card-type-color);
+    font-weight: 400;
+    font-family: var(--lato)
+}
+
+.product-props p {
+    margin: 20px 0;
+    font-family: var(--lato);
+}
+
+.property {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 0;
+}
+
+.property label {
+    font-size: 16px;
+    color: var(--main-text-color);
+    font-weight: 400;
+    font-family: var(--lato);
+}
+
+.product-sizes {
+    display: flex;
+}
+
+.product-sizes span {
+    font-family: var(--lato);
+    width: 30px;
+    height: 30px;
+    border-radius: 2px;
+    border: 1px solid var(--main-text-color);
+    margin: 0 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hovered-size {
+    color: var(--text-color-white);
+    background-color: var(--main-text-color);
+}
+
+.out-of-stock {
+    color: var(--card-type-color);
+}
+
+.product-colors {
+    display: flex;
+}
+
+.ellipse {
+    width: 24px;
+    height: 24px;
+    border-radius: 12px;
+    margin: 0 4px;
+}
+
+.color1 {
+    background-color: #ed5353;
+}
+
+.color2 {
+    background-color: #ffab00;
+}
+
+.color3 {
+    background-color: #f3dfc8;
+}
+
+.product-quantity {
+    padding-left: 10px;
+    width: 120px;
+    height: 30px;
+}
+
+.shipping-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.shipping-info span {
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+.buy-buttons {
+    display: flex;
+}
+
+.buy-buttons button {
+    margin: 0 5px;
+}
+
+.social {
+    margin: 20px 0;
+}
+
+.share {
+    font-size: 16px;
+    color: var(--card-type-color);
+    font-weight: 400;
+    font-family: var(--lato);
+}
+
+.detail-heading {
+    font-size: 18px;
+    color: var(--main-text-color);
+    font-weight: 400;
+    font-family: var(--merriweather);
+    margin-top: 40px;
+}
+
+.detail-description p {
+    margin: 10px 0;
+    text-align: left;
+    font-size: 14px;
+    line-height: 24px;
+    color: var(--main-text-color);
+    font-weight: 400;
+    font-family: var(--lato);
+
+}
+
+.link {
+    height: 350px;
+    width: 33%;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 10px 0;
+}
+
+.cards .card-image {
+    height: 250px;
+}
+
+.dark-gray {
+    background-color: darkgray;
+}
+
+.light-gray {
+    background-color: lightgray;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.table {
+    overflow-x: auto;
+}
+
+th,
+td {
+    padding: 0 5px;
+}
+
+
+@media only screen and (max-width: 991px) {
+    .side {
+        width: 100%;
+    }
+
+    .details-content {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .comments {
+
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        box-sizing: border-box;
+        flex-wrap: wrap;
+        margin: 50px 0;
+    }
+
+    .price-info {
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 20px;
+    }
+
+    .current-price {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 5px;
+    }
+
+    .price-reviews {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .properties {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .price-stats {
+        display: flex;
+        align-items: center;
+        margin-bottom: 5px;
+    }
+
+    .social {
+        margin: 20px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .price {
+        margin-bottom: 5px;
+    }
+
+    .property {
+        flex-direction: column;
+        width: 50%;
+    }
+
+    .property label {
+        margin-bottom: 5px;
+    }
+
+    .free-shipping {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .free-shipping p {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .buy-buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .buy-buttons button {
+        margin: 10px 0;
+    }
+
+    .cards {
+        padding: 10px 0;
+        justify-content: center;
+    }
+
+    .link {
+        width: 100%;
+        max-width: 200px;
+    }
+
+    .shipping-info {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .share {
+        margin-bottom: 10px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .property {
+        width: 100%;
+    }
+
+    .cards {
+        flex-direction: column;
+    }
+
+    th,
+    td {
+        font-size: 12px;
+    }
+}

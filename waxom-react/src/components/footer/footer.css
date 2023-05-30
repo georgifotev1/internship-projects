@@ -1,0 +1,138 @@
+.footer-info {
+    width: 100%;
+    background-color: #191919;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-copyright {
+    width: 100%;
+    min-height: 111px;
+    background-color: #101010;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo-footer {
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.logo-footer img {
+    width: 63px;
+    height: 55px;
+}
+
+.logo-footer span {
+    font-size: 34px;
+    letter-spacing: -1px;
+    color: var(--text-color-white);
+    font-weight: 400;
+    font-family: var(--headings-font-family);
+}
+
+.footer-content {
+    width: 25%;
+    max-width: 270px;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 10px;
+}
+
+.footer-content h4 {
+    color: var(--text-color-white);
+    padding-bottom: 20px;
+}
+
+
+.footer-content p {
+    color: var(--section-heading-color);
+    text-align: left;
+}
+
+.read-more {
+    color: #d1d1d1;
+    padding-top: 20px;
+}
+
+.blue {
+    color: #00bff3;
+}
+
+.timeline {
+    color: #363636;
+}
+
+.post {
+    padding-bottom: 20px;
+}
+
+.post:hover p {
+    color: var(--hover-color);
+}
+
+.post:hover .timeline {
+    color: var(--text-color-white);
+}
+
+
+
+.copyright ul,
+.creators ul {
+    display: flex;
+}
+
+.copyright li,
+.creators li {
+    color: var(--section-heading-color);
+    margin: 0 10px;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    .footer-content {
+        width: 100%;
+        padding: 15px 10px;
+    }
+
+    .logo-footer {
+        justify-content: center;
+    }
+
+    .footer-content p,
+    .read-more,
+    .post {
+        text-align: center;
+    }
+
+    .footer-info {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 0;
+    }
+
+    .copyright ul,
+    .creators ul {
+        display: inline;
+        text-align: center;
+    }
+
+    .copyright li,
+    .creators li {
+        font-size: 12px;
+        padding: 5px 0;
+    }
+
+
+    .footer-copyright {
+        flex-direction: column;
+        padding: 30px 0;
+    }
+
+    .read-more {
+        padding-top: 0;
+    }
+}

@@ -1,0 +1,21 @@
+.footer {
+    padding: 40px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.social-media li {
+    margin: 0 10px;
+}
+
+.social-media li:hover {
+    color: red;
+}

@@ -1,0 +1,81 @@
+:root {
+    /* Colors */
+    --text-color-white: #ffffff;
+    --hover-color: #c7b299;
+    --nav-toggle-color: black;
+    --button-green-color: #988574;
+    --button-blue-color: rgb(3, 3, 238);
+    --section-heading-color: #555555;
+    --section-p-color: #8c8c8c;
+    --section-ideas-color: #fbfaf8;
+    --section-ideas-h4-color: #615855;
+    --ideas-background: linear-gradient(90deg, #211b19 0%, #4e3326 100%);
+    --projects-nav-hover-color: #998575;
+    /* Fonts */
+    --text-font-family: 'Montserrat', sans-serif;
+    --headings-font-family: 'Raleway', sans-serif;
+    /* Font sizes */
+    --nav-bar-items-padding: 0 10px;
+    --nav-icons-margin-left: 20px;
+    --slider-height: 1024px;
+    --h1-font-size: 52px;
+    --h3-font-size: 36px;
+    --h4-font-size: 22px;
+    --p-font-size: 16px;
+    --p-width: 571px;
+    --button-width: 170px;
+    --button-font-size: 14px;
+    --button-line-height: 53px;
+    --swiper-button-position: 100px;
+    --logo-margin-right: 100px;
+    --services-items-width: 25%;
+    --services-items-margin: 50px 0;
+    --browsers-image-width: 1000px;
+    --ideas-background-height: 120px;
+    --projects-nav-padding: 5px 20px;
+    --mobiles-section-dimensions: 500px;
+    --mobiles-section-arrows: 21px;
+    --counters-h4-size: 48px;
+
+    --slider-height-tablet: 800px;
+    --h1-font-size-tablet: 40px;
+    --h3-font-size-tablet: 30px;
+    --h4-font-size-tablet: 18px;
+    --p-font-size-tablet: 14px;
+    --p-width-tablet: 400px;
+    --button-width-tablet: 130px;
+    --button-font-size-tablet: 13px;
+    --button-line-height-tablet: 44px;
+    --swiper-button-position-tablet: 60px;
+    --logo-margin-right-tablet: 20px;
+    --nav-bar-items-padding-tablet: 0 5px;
+    --nav-icons-margin-left-tablet: 4px;
+    --services-items-width-tablet: 50%;
+    --services-items-margin-tablet: 30px 0;
+    --browsers-image-width-tablet: 700px;
+    --counters-h4-size-tablet: 36px;
+
+
+    --slider-height-mobile: 700px;
+    --h1-font-size-mobile: 34px;
+    --h3-font-size-mobile: 26px;
+    --h4-font-size-mobile: 16px;
+    --p-font-size-mobile: 12px;
+    --p-width-mobile: 300px;
+    --button-width-mobile: 100px;
+    --button-font-size-mobile: 12px;
+    --button-line-height-mobile: 36px;
+    --swiper-button-position-mobile: 40px;
+    --nav-icons-margin-left-mobile: 10px;
+    --logo-margin-right-mobile: auto;
+    --services-items-width-mobile: 100%;
+    --services-items-margin-mobile: 20px 0;
+    --projects-nav-padding-mobile: 3px 7px;
+    --ideas-background-height-mobile: 200px;
+    --browsers-image-width-mobile: 500px;
+    --browsers-image-width-mobile-xs: 300px;
+    --mobiles-section-dimensions-mobile: 350px;
+
+    /* Borders */
+    --projects-nav-border: 1px solid #ebebeb;
+}

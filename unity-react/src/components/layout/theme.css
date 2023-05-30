@@ -1,0 +1,16 @@
+:root {
+    /* Colors */
+    --text-color-white: #ffffff;
+    --hover-color: #ffab00;
+    --main-text-color: #333333;
+    --card-image-background: #d3d3d3;
+    --card-type-color: #bdbdbd;
+    --accessories-background: #141414;
+    --footer-background: #f9f9f9;
+    /* Fonts */
+    --lato: 'Lato', sans-serif;
+    --merriweather: 'Merriweather', serif;
+    --georgia: 'Georgia', sans-serif;
+    /* Font sizes */
+    /* Borders */
+}

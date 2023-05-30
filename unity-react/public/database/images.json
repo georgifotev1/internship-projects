@@ -1,0 +1,34 @@
+[
+    {
+        "imagePath": "/images/forever-brand-logo.png",
+        "category": "brands"
+    },
+    {
+        "imagePath": "/images/mango-brand-logo.png",
+        "category": "brands"
+    },
+    {
+        "imagePath": "/images/H&M-brand-logo.png",
+        "category": "brands"
+    },
+    {
+        "imagePath": "/images/nike-brand-logo.png",
+        "category": "brands"
+    },
+    {
+        "imagePath": "/images/zara-brand-logo.png",
+        "category": "brands"
+    },
+    {
+        "imagePath": "/images/mix-mac-gr-one.png",
+        "category": "mix-max"
+    },
+    {
+        "imagePath": "/images/mix-max-gr-two.png",
+        "category": "mix-max"
+    },
+    {
+        "imagePath": "/images/mix-max-gr-three.png",
+        "category": "mix-max"
+    }
+]

@@ -1,0 +1,175 @@
+[
+  {
+    "category": "men",
+    "info": {
+      "productName": "Product Name Here",
+      "cardType": "Dress"
+    },
+    "price": 100,
+    "rating": 4,
+    "hasHeart": true,
+    "shopNow": true
+  },
+  {
+    "info": {
+      "productName": "Product Name Here",
+      "cardType": "Dress"
+    },
+    "price": 100,
+    "category": "men",
+    "isFavorite": true,
+    "rating": 5,
+    "hasHeart": true
+  },
+  {
+    "info": {
+      "productName": "Product Name Here",
+      "cardType": "Dress"
+    },
+    "price": 100,
+    "category": "men",
+    "rating": 4,
+    "hasHeart": true,
+    "shopNow": true
+  },
+  {
+    "info": {
+      "productName": "Product Name Here",
+      "cardType": "Dress"
+    },
+    "price": 80,
+    "hasHeart": true
+  },
+  {
+    "info": {
+      "productName": "Product Name Here",
+      "cardType": "Dress"
+    },
+    "price": 100,
+    "category": "men",
+    "isFavorite": true,
+    "rating": 5,
+    "hasHeart": true
+  },
+  {
+    "info": {
+      "productName": "Product Name Here",
+      "cardType": "Dress"
+    },
+    "price": 100,
+    "category": "men",
+    "rating": 4,
+    "hasHeart": true,
+    "shopNow": true
+  },
+  {
+    "info": {
+      "productName": "Product Name Here",
+      "cardType": "Dress"
+    },
+    "price": 80,
+    "hasHeart": true
+  },
+  {
+    "info": {
+      "productName": "Product Name Here",
+      "cardType": "Dress"
+    },
+    "price": 80,
+    "hasHeart": true
+  },
+  {
+    "info": {
+      "productName": "Product Name Here",
+      "cardType": "Dress"
+    },
+    "price": 100,
+    "category": "women",
+    "isFavorite": true,
+    "rating": 5,
+    "hasHeart": true
+  },
+  {
+    "info": {
+      "productName": "Product Name Here",
+      "cardType": "Dress"
+    },
+    "price": 100,
+    "category": "women",
+    "isFavorite": true,
+    "rating": 5,
+    "hasHeart": true
+  },
+  {
+    "info": {
+      "productName": "Product Name Here",
+      "cardType": "Dress"
+    },
+    "price": 100,
+    "category": "men",
+    "rating": 4,
+    "hasHeart": true,
+    "shopNow": true
+  },
+  {
+    "info": {
+      "productName": "Product Name Here",
+      "cardType": "Dress"
+    },
+    "price": 100,
+    "category": "women",
+    "rating": 4,
+    "hasHeart": true,
+    "shopNow": true
+  },
+  {
+    "info": {
+      "productName": "Product Name Here",
+      "cardType": "Dress"
+    },
+    "price": 80,
+    "category": "women",
+    "hasHeart": true
+  },
+  {
+    "info": {
+      "productName": "Product Name Here",
+      "cardType": "Dress"
+    },
+    "price": 80,
+    "category": "women",
+    "hasHeart": true
+  },
+  {
+    "info": {
+      "productName": "Product Name Here",
+      "cardType": "Dress"
+    },
+    "price": 100,
+    "category": "men",
+    "isFavorite": true,
+    "rating": 5,
+    "hasHeart": true
+  },
+  {
+    "info": {
+      "productName": "Product Name Here",
+      "cardType": "Top"
+    },
+    "category": "more-products"
+  },
+  {
+    "info": {
+      "productName": "Product Name Here",
+      "cardType": "Top"
+    },
+    "category": "more-products"
+  },
+  {
+    "info": {
+      "productName": "Product Name Here",
+      "cardType": "Top"
+    },
+    "category": "more-products"
+  }
+]

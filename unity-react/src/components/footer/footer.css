@@ -1,0 +1,42 @@
+footer {
+    background-color: var(--footer-background);
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.footer {
+    display: flex;
+    font-family: var(--lato);
+}
+
+.footer ul {
+    display: flex;
+}
+
+.footer a {
+    color: var(--main-text-color);
+    margin-right: 10px;
+}
+
+.footer p {
+    color: #bdbdbd;
+}
+
+
+@media only screen and (max-width: 991px) {
+    footer {
+        height: 150px;
+    }
+
+    .footer {
+        flex-direction: column;
+        align-items: center;
+        padding: 0 20px;
+        text-align: center;
+    }
+
+    .footer ul {
+        margin-bottom: 5px;
+    }
+}

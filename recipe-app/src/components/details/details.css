@@ -1,0 +1,39 @@
+.details {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    background: #db6d6d;
+}
+
+.recipe-details {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    max-width: 500px;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.info {
+    margin: 5px 0;
+}
+
+.heading {
+    margin-bottom: 10px;
+}
+
+
+.h3 {
+    margin-bottom: 5px;
+}

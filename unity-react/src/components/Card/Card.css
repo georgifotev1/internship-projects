@@ -1,0 +1,104 @@
+.card {
+    padding: 15px;
+    overflow: auto;
+    border: 1px solid transparent;
+    height: 100%;
+}
+
+.card-image {
+    height: 315px;
+    width: 100%;
+    background-color: var(--card-image-background);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.card-details {
+    display: flex;
+
+}
+
+.card-image img {
+    margin: 10px;
+    max-width: 50px;
+}
+
+.card-price {
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 25px;
+    margin: 0 0 10px 10px;
+    background-color: var(--main-text-color);
+    border-radius: 2px;
+    color: var(--text-color-white);
+    font-family: var(--lato);
+}
+
+.card-shop-now {
+    margin-left: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 25px;
+    color: var(--text-color-white);
+    background-color: var(--hover-color);
+}
+
+.card-shop-now:hover {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card:hover {
+    border: 1px solid var(--hover-color);
+}
+
+.card-discount {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25px;
+    width: 35px;
+    background-color: rgb(157, 5, 5);
+    font-family: var(--lato);
+    color: var(--text-color-white);
+    font-size: 14px;
+}
+
+.checked {
+    color: orange;
+}
+
+.card-rating {
+    padding-top: 5px;
+}
+
+.large {
+    height: 650px;
+}
+
+.small {
+    height: 120px;
+    width: 100px;
+    margin: 10px 10px 0 0;
+}
+
+
+@media only screen and (max-width: 991px) {
+    .card-shop-now {
+        margin-left: 20px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .large {
+        height: 270px;
+    }
+}
