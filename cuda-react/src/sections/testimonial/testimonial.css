@@ -1,0 +1,7 @@
+.about {
+    background-color: var(--section-about-background);
+}
+
+.comment-positions {
+    color: var(--section-portfolio-background)
+}

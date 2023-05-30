@@ -1,0 +1,68 @@
+.contacts {
+    background-color: var(--section-contacts-background);
+}
+
+.section-form form {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.form-user-data {
+    margin-bottom: 20px;
+}
+
+.form-user-data input {
+    padding: 10px 12px;
+    font-size: var(--font-size-form);
+    font-weight: normal;
+    margin-bottom: 30px;
+    background-color: var(--form-input-background);
+    color: var(--text-color-white);
+    border-radius: var(--link-border-radius);
+    border: none;
+    position: relative;
+    display: block;
+    width: 100%;
+}
+
+.form-user-message {
+    margin-bottom: 50px;
+}
+
+.form-user-message textarea {
+    padding: 10px 20px;
+    font-size: var(--font-size-form);
+    font-weight: normal;
+    border-radius: var(--link-border-radius);
+    background-color: var(--form-input-background);
+    color: var(--text-color-white);
+    border: none;
+    width: 100%;
+}
+
+.form-button {
+    background-color: var(--button-color-team-positions);
+}
+
+.form-button:hover {
+    background-color: var(--contact-section-form-button-color-hover);
+    color: var(--text-color-white);
+}
+
+
+.holder {
+    position: absolute !important;
+    color: white;
+    top: 10px;
+    z-index: 3;
+    left: 20px;
+    font-size: 20px;
+}
+
+.holder span {
+    color: red;
+}
+
+.disabled {
+    display: none;
+}

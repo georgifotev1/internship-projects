@@ -1,0 +1,37 @@
+:root {
+    /* Colors */
+    --section-intro-background: rgba(134, 79, 156, 1);
+    --section-services-background: rgba(22, 194, 163, 1);
+    --section-team-background: rgba(231, 241, 248, 1);
+    --section-skills-background: #ffffff;
+    --section-portfolio-background: rgba(255, 221, 153, 1);
+    --section-about-background: rgba(215, 69, 128, 1);
+    --section-contacts-background: rgba(60, 83, 153, 1);
+    --button-color-intro: rgba(235, 125, 75, 1);
+    --button-color-load-more: rgba(23, 193, 163, 1);
+    --button-color-team-positions: rgba(47, 185, 231, 1);
+    --portfolio-nav-background: rgba(235, 201, 133, 1);
+    --form-input-background: rgba(39, 57, 113, 1);
+    --navigation-background-color-hover: rgba(99, 58, 121, 1);
+    --intro-button-background-hover: rgba(235, 125, 75, 0.8);
+    --portfolio-button-background-hover: rgba(23, 193, 163, 0.8);
+    --contact-section-form-button-color-hover: rgb(47, 185, 231, 0.8);
+    --footer-text-color-hover: rgba(47, 185, 231, 0.8);
+    --text-color-white: #ffffff;
+    --text-color-portfolio-link: rgba(57, 57, 57, 1);
+    /* Font */
+    --body-font-family: "Titillium Web", sans-serif;
+    /* Font sizes */
+    --font-size-h1: 42px;
+    --font-size-h2: 40px;
+    --font-size-h3: 24px;
+    --font-size-normal: 18px;
+    --font-size-form: 20px;
+    --navigation-font-size: 16px;
+    --navigation-padding: 8px 16px;
+    /* Spaces */
+    --buttons-padding-x: 0 85px;
+    --buttons-line-hight: 66px;
+    --link-border-radius: 4px;
+    --section-padding: 50px;
+}

@@ -1,0 +1,7 @@
+.team {
+    background-color: var(--section-team-background);
+}
+
+.team-positions {
+    color: var(--button-color-team-positions)
+}
